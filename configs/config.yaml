@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  host: "0.0.0.0"
+
+rtsp:
+  port: 8554
+  host: "0.0.0.0"
+
+logging:
+  level: "info"
+  format: "json"
+
+streams:
+  max_concurrent: 10
+  timeout: 30s
